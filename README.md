@@ -8,35 +8,52 @@
 drumsBss/
 ├── dataset/  # Folder to store input WAV files
 │   └── drums1
-│       └── take1
-│           └── (64 files)
-│       └── take2
-│           └── (64 files)
-│       └── take3
-│           └── (64 files)
+│   │   ├── take1
+│   │   │   └── (64 files)
+│   │   ├── take2
+│   │   │   └── (64 files)
+│   │   └── take3
+│   │       └── (64 files)
 │   └── drums2
-│       └── take1
-│           └── (80 files)
-│       └── take2
-│           └── (80 files)
-│       └── take3
-│           └── (80 files)
+│   │   ├── take1
+│   │   │   └── (80 files)
+│   │   ├── take2
+│   │   │   └── (80 files)
+│   │   └── take3
+│   │       └── (80 files)
 │   └── drums3
-│       └── take1
-│           └── (80 files)
-│       └── take2
-│           └── (80 files)
-│       └── take3
-│           └── (80 files)
+│   │   ├── take1
+│   │   │   └── (80 files)
+│   │   ├── take2
+│   │   │   └── (80 files)
+│   │   └── take3
+│   │       └── (80 files)
 │   └── drums4
-│       └── take1
-│           └── (80 files)
-│       └── take2
-│           └── (80 files)
+│       ├── take1
+│       │   └── (80 files)
+│       ├── take2
+│       │   └── (80 files)
 │       └── take3
 │           └── (80 files)
-├── score/
+├── score
 │    └── (4 files)
 └── README.md
 ~~~
+## データセット
+- **保存場所**: drumsBss/dataset/scoreType/takeNum/scoreType_takeNum_sorceType_micNum.wav
+    - **scoreType**: 楽譜の種類(1/2/3/4)
+    - **takeNum**: 演奏のテイク数(1/2/3)
+    - **sorceType**: 演奏する楽器の種類(0: 全ての楽器/1: BD/2: SD/3: HH/4: CC)
+    - **micNum**: マイクのナンバー(1/2/・・・/15/16)
+## 測定条件
+### 使用機材
+- **マイクロフォン**
+    - **マイクロフォンアレイ**: 4つまたは8つのマイクロフォンを等間隔で一直線に配置し，1つのマイクロフォンを構成
+    - **BD用マイクロフォン**: AKG P2(ダイナミックマイク)
+    - **SD用マイクロフォン**: Shure SM57(ダイナミックマイク)
+    - **HH用マイクロフォン**: Shure SM57(ダイナミックマイク)
+    - **CC用マイクロフォン**: AKG P17(コンデンサマイク)
+- **デジタルミキサー**: 
+## 録音条件
+### 音楽練習室
 
